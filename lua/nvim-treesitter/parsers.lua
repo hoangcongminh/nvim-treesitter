@@ -436,6 +436,7 @@ list.swift = {
     branch = "with-generated-files",
     files = { "src/parser.c", "src/scanner.c" },
   },
+  maintainers = { "@alex-pinkus" },
 }
 
 list.c_sharp = {
@@ -809,6 +810,15 @@ list.beancount = {
     branch = "master",
   },
   maintainers = { "@polarmutex" },
+}
+
+list.rnoweb = {
+  install_info = {
+    url = "https://github.com/bamonroe/tree-sitter-rnoweb",
+    files = { "src/parser.c", "src/scanner.c" },
+  },
+  filetype = "rnoweb",
+  maintainers = { "@bamonroe" },
 }
 
 list.latex = {
